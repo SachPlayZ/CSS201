@@ -1,0 +1,353 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.backgro{
+    background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7287114674971551) 80%, rgba(0,0,0,1) 100%), url("https://wallpapers.com/images/hd/4k-mountain-0hb4gnwalnj51zsh.jpg");
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+}
+#logon {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    position: relative;
+    left: 30px;
+    top: -110px;
+    color: white;
+    animation-name: FadeIn;
+    animation-duration: 3s;
+    width: 10%;
+
+}
+#container{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -250px;
+    
+    
+}
+#container div{
+    flex-basis: 10%;
+    text-align: center;
+}
+#tatti {
+    width: 100px;
+    height: 100px;
+    display: inline;
+    position: relative;
+    left: 30px;
+}
+#person{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+}
+.topr{
+    position: absolute;
+    right: 25px;
+    top: 18px;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.tabbuttons{
+    text-decoration: none;
+}
+.tabbuttons:hover{
+    text-shadow: 0px 0px 10px black;
+    animation-name: BigText;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.tabbuttons:link, .tabbuttons:visited
+{
+    color: white;
+}
+@keyframes FadeIn{
+    from{
+        color: rgba(255, 255, 255, 0);
+    }
+    to{
+        color: rgba(255, 255, 255, 1);
+    }
+}
+.yellowline{
+    width: 10%;
+    height: 4px;
+    background-color: rgb(63, 168, 187);
+    position: relative;
+    left: 200px;
+}
+#small-text{
+    position: relative;
+    left: 165px;
+    top: -8px;
+    color: rgb(17, 96, 110);
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 250%;
+}
+.titled{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 80px;
+    color: white;
+    
+}
+#tit01
+{
+    position: relative;
+    left: 190px;
+    top: 40px;
+    width: 80%;
+}
+@keyframes BigText
+{
+    from{
+        font-size: 15px;
+    }
+    to{
+        font-size: 20px;
+    }
+}
+.compendi{
+    display: inline-block
+}
+.compendi:hover{
+    animation-name: LogoExpansion;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes LogoExpansion{
+    from{
+        transform: scale(1.0);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+.orochi
+{
+    width: 100%;
+    background-color: black;
+    height: 1900px;
+    position: relative;
+    top: -20px;
+}
+.numba{
+        font-size: 150px;
+        color: rgba(255, 255, 255, 0.3);
+        font-family: 'Poppins', sans-serif;
+        
+}
+.wan{
+    position: relative;
+    top: -170px;
+}
+#tru01{
+    position: absolute;
+        left: 140px;
+        top: -280px;
+}
+#tit02{
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    left: 200px;
+    top: -150px;
+}
+#flow{
+    float: right;
+    height: 500px;
+    position: absolute;
+    right: 80px;
+    top: -200px;
+}
+.subdesc{
+    color: white;
+    font-size: 17px;
+    width: 45%;
+    font-family: 'Poppins', sans-serif;
+}
+#subdesc1{
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    
+}
+.blutext{
+    color: rgb(63, 168, 187);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    width: 27%;
+    
+}
+#blutext1{
+    position: relative ;
+    left: 200px;  
+    top: 20px;
+    font-size: 15px;
+}
+#blutext1:hover
+{
+    animation-name: crit;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes crit{
+    from
+    {
+        left: 200px;
+        font-size: 15px;
+    }
+    to{
+        left: 203px;
+        font-size: 17px;
+    }
+}
+#flow2{
+    float: left;
+    height: 500px;
+    width: 350px;
+    position: absolute;
+    left: 80px;
+    top: 400px;
+}
+.tuu{
+    position: absolute;
+    left: 50%;
+    top: 450px;
+}
+#small-text2{
+    position: relative;
+    left: 165px;
+    top: -26px;
+    color: rgb(17, 96, 110);
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 250%;
+}
+#tru02
+{
+    position: absolute;
+    left: 45%;
+    top: 330px;
+}
+#tit03
+{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 480px;
+}
+#subdesc02{
+    position: absolute;
+    left: 50%;
+    top: 680px;
+}
+#blutext02{
+    position: relative;
+    left: 50%;
+    top: 625px;
+    font-size: 15px;
+}
+#blutext02:hover
+{
+    animation-name: crit2;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes crit2{
+    from
+    {
+        left: 50%;
+        font-size: 15px;
+    }
+    to{
+        left: 50.2%;
+        font-size: 17px;
+    }
+}
+.tree{
+    position: relative;
+    top: 780px;
+}
+#small-text3{
+ position: relative;
+    left: 165px;
+    top: -8px;
+    color: rgb(17, 96, 110);
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 250%;
+}
+#tru03{
+    position: absolute;
+    left: 140px;
+    top: 930px;
+}
+#tit04{
+    position: absolute;
+    top: 1070px;
+    left: 200px;
+    width: 50%;
+}
+#subdesc03{
+    position: absolute;
+    left: 200px;
+    top: 1280px;
+    
+}
+#flow3{
+    float: right;
+    height: 500px;
+    position: absolute;
+    right: 80px;
+    top: 1000px;
+}
+#blutext03{
+    position: relative ;
+    left: 200px;  
+    top: 1180px;
+    font-size: 15px;
+}
+#blutext03:hover
+{
+    animation-name: crit3;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes crit3{
+    from
+    {
+        left: 200px;
+        font-size: 15px;
+    }
+    to{
+        left: 203px;
+        font-size: 17px;
+    }
+}
+::selection{
+    background-color: black;
+    color: rgb(63, 168, 187);
+}
+.footing{
+    background-color:rgb(63, 168, 187);
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+}
